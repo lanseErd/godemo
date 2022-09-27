@@ -16,7 +16,7 @@ spec:
         "kubernetes.io/os": linux
       containers:
         - name: godemo
-          image: lanseregistry.azurecr.io/lanseimg/lanse:v1
+          image: lanseregistry.azurecr.io/lanseimg:v1
           resources:
             requests:
               cpu: 100m
